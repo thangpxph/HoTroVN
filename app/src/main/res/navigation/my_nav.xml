@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/wellComeFragment">
+
+    <fragment
+        android:id="@+id/wellComeFragment"
+        android:name="com.example.hotrovn.fragment.WellComeFragment"
+        android:label="fragment_well_come"
+        tools:layout="@layout/fragment_well_come" >
+        <action
+            android:id="@+id/action_wellComeFragment_to_phoneFragment"
+            app:destination="@id/phoneFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/phoneFragment"
+        android:name="com.example.hotrovn.fragment.PhoneFragment"
+        android:label="fragment_phone"
+        tools:layout="@layout/fragment_phone" >
+        <action
+            android:id="@+id/action_phoneFragment_to_wellComeFragment"
+            app:destination="@id/wellComeFragment" />
+        <action
+            android:id="@+id/action_phoneFragment_to_newsHelpFragment"
+            app:destination="@id/newsHelpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newsHelpFragment"
+        android:name="com.example.hotrovn.fragment.NewsHelpFragment"
+        android:label="fragment_news_help"
+        tools:layout="@layout/fragment_news_help" >
+        <action
+            android:id="@+id/action_newsHelpFragment_to_phoneFragment"
+            app:destination="@id/phoneFragment" />
+        <action
+            android:id="@+id/action_newsHelpFragment_to_addNewsHelpFragment"
+            app:destination="@id/addNewsHelpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNewsHelpFragment"
+        android:name="com.example.hotrovn.fragment.AddNewsHelpFragment"
+        android:label="fragment_add_news_help"
+        tools:layout="@layout/fragment_add_news_help" />
+</navigation>
