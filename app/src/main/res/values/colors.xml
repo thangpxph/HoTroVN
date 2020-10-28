@@ -4,9 +4,11 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#C3C9CE</color>
     <color name="colorGreenText">#4DAF51</color>
-    <color name="colorGreenButton">#4CAF50</color>
+    <color name="colorGreen50">#4CAF50</color>
     <color name="colorEarthOrange">#FF7E2C</color>
     <color name="colorBlack">#000000</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorView">#C3C9CE</color>
+    <color name="colorButton">#AFAFAF</color>
+    <color name="colorViewB4">#B4B4B4</color>
 </resources>

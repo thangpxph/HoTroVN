@@ -11,4 +11,15 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="addNews">Tạo bảng tin cứu trợ</string>
+    <string name="location">Vị trí của bạn</string>
+    <string name="caller">Người kêu gọi</string>
+    <string name="role">Vai trò</string>
+    <string name="phone">Điện thoại</string>
+    <string name="description">Mô tả tình hình</string>
+    <string name="need_help">Cần hỗ trợ những gì?</string>
+    <string name="addImage">Thêm ảnh tình hình</string>
+    <string name="save">Lưu</string>
+    <string name="addNewsSuccess">Bảng tin cứu trợ thành công</string>
+    <string name="text1">Các mạnh thường quân sẽ nhận được bản tin của bạn sớm!</string>
+    <string name="text2">Xong</string>
 </resources>

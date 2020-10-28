@@ -1,0 +1,48 @@
+{
+  "Id": 1,
+  "Name": "VietNam",
+  "Code": "vn",
+  "Province": [
+    {
+      "Id": 1,
+      "Name": "Hà Nội",
+      "Code": "HN",
+      "District": [
+        {
+          "Id": 1,
+          "Name": "Quận Ba Đình",
+          "Code": "BD",
+          "village": [
+            {
+              "Id": 1,
+              "Name": "Phường Cống Vị",
+              "Code": "CV"
+            },
+            {
+              "Id": 2,
+              "Name": "Phường Đội Cấn",
+              "Code": "DC"
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Name": "Quận Bắc Từ Liêm",
+          "Code": "BTL",
+          "village": [
+            {
+              "Id": 1,
+              "Name": "Phường Cổ Nhuế 1",
+              "Code": "CN1"
+            },
+            {
+              "Id": 2,
+              "Name": "Phường Đông Ngạc",
+              "Code": "DN"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
